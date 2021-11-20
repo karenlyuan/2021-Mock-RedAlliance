@@ -7,7 +7,7 @@ package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.subsystems.DriveTrain;
 
-public class RedForward extends CommandBase {
+public class Forward extends CommandBase {
 
   private DriveTrain d;
   private double distance;
@@ -15,7 +15,7 @@ public class RedForward extends CommandBase {
   private double error;
 
   /** Creates a new EncoderDrive. */
-  public RedForward (DriveTrain d, double distance, double speed) {
+  public Forward (DriveTrain d, double distance, double speed) {
     // Use addRequirements() here to declare subsystem dependencies.
     this.d = d;
     this.distance = distance;

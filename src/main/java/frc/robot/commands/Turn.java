@@ -9,7 +9,7 @@ import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.subsystems.DriveTrain;
 import com.kauailabs.navx.frc.AHRS;
 
-public class RedTurn extends CommandBase {
+public class Turn extends CommandBase {
 
   private AHRS navx = new AHRS(SPI.Port.kMXP);
 
@@ -20,7 +20,7 @@ public class RedTurn extends CommandBase {
   private int constant = 1;
 
   /** Creates a new EncoderDrive. */
-  public RedTurn(DriveTrain d, double angle, double speed) {
+  public Turn(DriveTrain d, double angle, double speed) {
     // Use addRequirements() here to declare subsystem dependencies.
     this.d = d;
     this.angle = angle;
