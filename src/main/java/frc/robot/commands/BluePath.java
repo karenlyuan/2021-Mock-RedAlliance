@@ -16,7 +16,7 @@ public class BluePath extends SequentialCommandGroup {
 
   public BluePath(DriveTrain dt) {
 
-    this.dt=dt;
+    this.dt = dt;
 
     // Add your commands in the addCommands() call, e.g.
     // addCommands(new FooCommand(), new BarCommand());
